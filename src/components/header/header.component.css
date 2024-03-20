@@ -1,0 +1,85 @@
+.hero {
+  background: #3b5d50;
+  padding: calc(4rem - 30px) 0 0rem 0;
+}
+
+.hero .intro-excerpt {
+  position: relative;
+  z-index: 4;
+}
+
+.hero h1 {
+  margin-top: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-botom: 30px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+}
+
+.hero .hero-img-wrap {
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.img-dot {
+  content: "";
+  position: absolute;
+  width: 255px;
+  height: 217px;
+  right: -3rem;
+  top: 2rem;
+  z-index: 1;
+}
+
+.btn.btn-secondary {
+  color: #2f2f2f;
+  background: #f9bf29;
+  border-color: #f9bf29;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+.btn.btn-white-outline {
+  color: #fff;
+  background: #3b5d50;
+  border-color: #bcb6b6;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+.btn.btn-white-outline:hover{
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn.btn-secondary:hover{
+    background-color: #f9bf29;
+    color: #2f2f2f;
+}
+
+@media screen {
+  @media (min-width: 1400px) {
+    .hero h1 {
+      font-size: 54px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .h1,
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
